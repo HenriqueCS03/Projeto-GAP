@@ -8,6 +8,5 @@ btnConfirmar.addEventListener('click', ()=>{
                 return
         }
     }
-    document.querySelector('.cadastro').submit()
-        alert("Dados cadastrados!")
-})
+    document.querySelector('.cadastro').submit() 
+});

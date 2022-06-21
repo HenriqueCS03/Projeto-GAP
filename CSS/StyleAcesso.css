@@ -90,6 +90,7 @@ form input[type=button]:hover{
 .rodape{
     display: flex;
     justify-items: center;
-    margin: 8px 0 0 10px;
+    font-size: small;
+    margin: 20px 0 0 10px;
     color: white;
 }

@@ -11,18 +11,25 @@
     height: 90px;
     float: left;
     width: 90px;
-    border-radius: 10px;
-}
-.cabecalho{
-    height: 50px;
-    width: 100%;
-}
-.menu{
-   display: flex; 
+    border: solid white;
+    border-radius: 50px;
 }
 
-.cont-principal{
-    position: relative;
-    text-align: center;
-    justify-content: center;
+.cabecalho{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho p{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.rodape{
+    display: flex;
+    justify-items: center;
+    font-size: small;
+    margin: 20px 0 0 10px;
+    color: white;
 }
