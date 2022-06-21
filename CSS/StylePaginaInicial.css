@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.perfil{
+    object-fit: cover;
+    height: 90px;
+    float: left;
+    width: 90px;
+    border-radius: 10px;
+}
+.cabecalho{
+    height: 50px;
+    width: 100%;
+}
+.menu{
+   display: flex; 
+}
+
+.cont-principal{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
