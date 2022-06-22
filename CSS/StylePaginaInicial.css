@@ -19,17 +19,81 @@
     padding: 10px 10px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.cabecalho p{
-    margin-left: 15px;
-    margin-top: 30px;
+.nome-usuario{
+    margin-left: 20px;
+}
+
+.cabecalho a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header nav :hover{
+    color: #1deb9c;
+    background-color: #414a4d; 
+    transition: 1s; 
+}
+
+.info-usuario{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sair-pagina{
+    margin-right: 20px;
+    padding: 5px 10px;
+    border: solid #24ade0;
+    border-radius: 8px;
+    float: right;
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.container-principal a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-links{
+    padding: 10px 20px;
+}
+
+.container-principal nav :hover{ 
+    color: #1deb9c; 
+    background-color: #414a4d; 
+    transition: 1s; 
+}
+
+.links{
+    display: block;
+    border: solid 3px #24ade0;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+.container-final{
+    display: flex;
+    justify-content: space-between;
 }
 
 .rodape{
     display: flex;
-    justify-items: center;
+    flex-direction: column;
+    align-items: center;
     font-size: small;
-    margin: 20px 0 0 10px;
     color: white;
 }
